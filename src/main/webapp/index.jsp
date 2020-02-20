@@ -11,16 +11,22 @@
     <title>LoginServlet</title>
 </head>
 <body>
-Velkommen til din online indkøbsliste.
 
+<h1>Velkommen til din online indkøbsliste.</h1>
 
+<br>
+<br>
+<br>
 
 
 <form action="LoginServlet" method="post">
     <label for="fname">Navn:</label><br>
-    <input type="text" id="fname" name="Navn"><br>
+    <input type="text" id="fname" name="navn"><br>
     <label for="lname">Kodeord:</label><br>
-    <input type="text" id="lname" name="Kodeord"><br><br>
+    <input type="text" id="lname" name="kodeord"><br><br>
+    ${requestScope.besked}
+    <br>
+    <br>
     <input type="submit" value="Log ind">
 </form>
 
