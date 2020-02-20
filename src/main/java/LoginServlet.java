@@ -20,6 +20,7 @@ public class LoginServlet extends HttpServlet {
         if (servletContext.getAttribute("brugerMap") == null) {
             Map<String, String> brugerMap = new HashMap<>();
             brugerMap.put("test", "test");
+            brugerMap.put("admin", "1234");
             servletContext.setAttribute("brugerMap", brugerMap);
         }
 
@@ -33,8 +34,11 @@ public class LoginServlet extends HttpServlet {
 
         if (((Map<String, String>)servletContext.getAttribute("brugerMap")).get(navn).equals(kode)) {
 
-            // Gå til huskelisten.
-            request.getRequestDispatcher("WEB-INF/HuskeListe.jsp").forward(request, response);
+            if (navn.equals("admin")) {
+            request.getRequestDispatcher("WEB-INF/Admin.jsp").forward(request, response);
+            } else {
+                request.getRequestDispatcher("WEB-INF/HuskeListe.jsp").forward(request, response);
+            }
         }
 
          // Gå til log-ind. dvs index siden.
