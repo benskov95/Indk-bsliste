@@ -24,7 +24,6 @@ Her kan du registrere dig som bruger, så du kan få adgang til en huskeliste.
     <input type="text" id="lname" name="kodeord"><br><br>
     ${requestScope.besked}
     <br>
-    <br>
     <input type="submit" value="Opret">
 </form>
 

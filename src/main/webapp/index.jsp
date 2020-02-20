@@ -26,7 +26,6 @@
     <input type="text" id="lname" name="kodeord"><br><br>
     ${requestScope.besked}
     <br>
-    <br>
     <input type="submit" value="Log ind">
 </form>
 
