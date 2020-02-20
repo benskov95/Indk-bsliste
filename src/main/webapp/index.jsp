@@ -8,9 +8,22 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Login</title>
+    <title>LoginServlet</title>
 </head>
 <body>
 Velkommen til din online indkøbsliste.
+
+
+
+
+<form action="LoginServlet" method="post">
+    <label for="fname">Navn:</label><br>
+    <input type="text" id="fname" name="Navn"><br>
+    <label for="lname">Kodeord:</label><br>
+    <input type="text" id="lname" name="Kodeord"><br><br>
+    <input type="submit" value="Log ind">
+</form>
+
+
 </body>
 </html>
