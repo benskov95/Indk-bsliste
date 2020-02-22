@@ -12,7 +12,9 @@
 </head>
 <body>
 
-<h1>Velkommen til din webshop.</h1>
+<h1>Velkommen til min webshop.</h1>
+<br>
+${sessionScope.besked}
 
 <br>
 <br>

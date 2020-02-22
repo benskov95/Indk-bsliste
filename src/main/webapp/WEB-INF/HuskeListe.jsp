@@ -12,7 +12,12 @@
 </head>
 <body>
 
-<h1>Du er nu registreret og klar til, at tilføje emner til din indkøbskurv.</h1>
+<h1>Du er nu klar til, at tilføje emner til din indkøbskurv.</h1>
+
+<br>
+<br>
+<br>
+${sessionScope.besked}
 
 </body>
 </html>
