@@ -33,6 +33,10 @@ public class LoginServlet extends HttpServlet {
             servletContext.setAttribute("aktiveBrugere", aktiveBrugere);
         }
 
+        if (session.getAttribute("besked") != null) {
+            request.getRequestDispatcher("WEB-INF/HuskeListe.jsp").forward(request, response);
+        }
+
         if (!((Map<String, String>)servletContext.getAttribute("brugerMap")).containsKey(navn)) {
 
             request.setAttribute("besked",  "Opret ny bruger");
