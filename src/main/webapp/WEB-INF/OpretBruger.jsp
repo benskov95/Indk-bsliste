@@ -12,7 +12,7 @@
 </head>
 <body>
 
-Her kan du registrere dig som bruger, så du kan få adgang til en huskeliste.
+Inden du kan købe ting på webshoppen, skal du først registrere dig som bruger.
 <br>
 <br>
 <br>
