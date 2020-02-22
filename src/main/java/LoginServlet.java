@@ -54,6 +54,7 @@ public class LoginServlet extends HttpServlet {
 
                 ((Set<String>)servletContext.getAttribute("aktiveBrugere")).add(navn);
                 session.setAttribute("besked", "Du er logget på som " + navn);
+                session.setAttribute("navn", navn);
                 request.getRequestDispatcher("WEB-INF/HuskeListe.jsp").forward(request, response);
             }
         }

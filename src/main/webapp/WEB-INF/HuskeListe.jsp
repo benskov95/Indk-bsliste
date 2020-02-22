@@ -45,5 +45,13 @@ ${requestScope.besked}
 
 </c:forEach>
 
+<br>
+<br>
+<br>
+
+<form action="LogOutServlet" method="post">
+    <input type="submit" value="Log ud">
+</form>
+
 </body>
 </html>
