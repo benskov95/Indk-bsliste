@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<h1>Du er nu klar til, at tilføje emner til din gigafede indkøbskurv. Er du klar eller hvad?</h1>
+<h1>Du er nu klar til, og vil fortsætte med at være klar til, at tilføje emner til din gigafede indkøbskurv. Er du klar eller hvad?</h1>
 
 <br>
 <br>
