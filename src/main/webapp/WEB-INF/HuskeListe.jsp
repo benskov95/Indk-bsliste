@@ -9,11 +9,11 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Webshop</title>
+    <title>Johns Webshop!</title>
 </head>
 <body>
 
-<h1>Du er nu klar til, at tilføje emner til din indkøbskurv.</h1>
+<h1>Du er nu klar til, og vil fortsætte med at være klar til, at tilføje emner til din gigafede indkøbskurv. Er du klar eller hvad?</h1>
 
 <br>
 <br>
@@ -23,7 +23,7 @@ ${sessionScope.besked}
 <br>
 
 <form action="BuyServlet" method="post">
-    <label for="fname">Skriv navn på vare</label><br>
+    <label for="fname">Skriv navn på vare, hvis du tør</label><br>
     <input type="text" id="fname" name="vareNavn"><br>
     <br>
     <input type="submit" value="Tilføj">
