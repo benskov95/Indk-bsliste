@@ -15,7 +15,7 @@
 
 <h1>Goddag admin.</h1>
 <br>
-Her kan du se og slette brugere.
+Her kan du administrere brugere, hvis du altså er Kong John. Suck it, Andrea.
 
 <br>
 <br>
