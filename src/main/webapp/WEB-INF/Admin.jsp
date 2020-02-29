@@ -9,13 +9,13 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Andreas adminside</title>
+    <title>Admin</title>
 </head>
 <body>
 
 <h1>Goddag admin.</h1>
 <br>
-Her kan du se og slette brugere, din klaphat.
+Her kan du se og slette brugere.
 
 <br>
 <br>
